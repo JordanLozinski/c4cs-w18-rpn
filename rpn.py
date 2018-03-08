@@ -48,7 +48,7 @@ def calculate(myarg):
                 for c in range(0, len(stack)):
                     b = stack.pop()
                     count += num(b)
-                stack.append(count)
+                stack.append(str(count))
             else:
                 stack.append(token)
         else:
